@@ -2,10 +2,45 @@
 y = float(67)
 print(x,y) """
 
-values = [1,2.23,5,7,2,30,15]
+""" values = [1,2.23,5,7,2,30,15]
 print(values)
 for i in values:
     print(i)
 
-    print(values[0])
-print(values[6])
+print(values[0])
+print(values[6]) """
+
+""" x = "this is a thing"
+print(x) """
+""" 
+quiz_about_you = input("do you want to take this quiz? (yes or no) ")
+if quiz_about_you == ("yes"):
+    print("thank you for you answer! I will now ask you a few questions.")
+else:
+    print("wrong answer. you still have to take this quiz.")
+
+ur_name = input("what is your name?")
+if ur_name == "fatima":
+    print("mice name")
+else:
+    print("nice name")
+
+ur_fave_food = input("what is ur fav food")
+if ur_fave_food == "biryani":
+    print("good job. you passed the test. you can go now")
+else:
+    print("*you get kidnapped*") """
+
+
+
+
+
+
+
+temp = 0
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
