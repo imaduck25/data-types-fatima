@@ -31,13 +31,19 @@ if ur_fave_food == "biryani":
 else:
     print("*you get kidnapped*")
  """
-temp = 0
+""" temp = 0
 if temp > 68:
     print('warm')
 elif temp == 68:
     print('perfect')
 else:
-    print('cold')
+    print('cold') """
 
 """ x = "test"
 print(f"hello {x}") """
+
+odd_or_even = input int("choose a number 1-10. i will determine if its odd or even ")
+if odd_or_even == int("1,3,5,7,9"):
+    print("odd")
+elif odd_or_even == int("2,4,6,8,10"):
+    print("even")
