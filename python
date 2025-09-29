@@ -49,9 +49,8 @@ if int(odd_or_even) % 2 == 0:
 else:
     print("odd") """
 
-x = input("give me a a number i will determine if its a factor of 5 ")
-def factors (x):
-    if x % 5 == 0:
-        print("factor")
-    else:
-        print("not a factor")
+while True:
+    print("runinhg")
+    x=0
+    if x % == 0:
+        break
