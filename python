@@ -55,11 +55,31 @@ else:
     if x == 0:
         break """
 
-odd_or_even = input("i will detremine all faactor of 5 ")
+""" odd_or_even = input("i will detremine all faactor of 5 ")
 print(input)
 x=input
 if int(x) % 5 == 0:
     while True:
         print("factor")
 else:
-    breakpoint(100)
+    breakpoint(100) """
+
+y = input("please make your payment. pays/no ")
+print(input)
+x=input
+if x == ("no"):
+    while True:
+        print("please pay or else....")
+        if x == ("pays"):
+            print(x)
+            break
+    
+x = input("thank you for your payment! how was our service? bad/okay/good/great ")
+if x == ("bad"):
+    print("we are sorry for your inconvienience. would you like to tip 0%?")
+if x == ("okay"):
+    print("would you like to tip 15%")
+if x == ("good"):
+    print("would you like to tip 20%")
+if x == ("great"):
+    print("would you like to tip 25%")
