@@ -66,14 +66,12 @@ else:
 
 y = input("please make your payment. pays/no ")
 print(input)
-x=input
-if x == ("no"):
+x=input("thank you for your payment! how was our service? bad/okay/good/great ")
+z=input
+if z == ("no"):
     while True:
-        print("please pay or else....")
-        if x == ("pays"):
-            print(x)
-            break
-    
+        print(y)
+
 x = input("thank you for your payment! how was our service? bad/okay/good/great ")
 if x == ("bad"):
     print("we are sorry for your inconvienience. would you like to tip 0%?")
@@ -83,4 +81,3 @@ if x == ("good"):
     print("would you like to tip 20%")
 if x == ("great"):
     print("would you like to tip 25%")
-    
