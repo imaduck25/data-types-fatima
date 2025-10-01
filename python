@@ -64,15 +64,15 @@ if int(x) % 5 == 0:
 else:
     breakpoint(100) """
 
-y = input("please make your payment. pays/no ")
-print(input)
-x=input("thank you for your payment! how was our service? bad/okay/good/great ")
-z=input
-if z == ("no"):
-    while True:
-        print(y)
 
-x = input("thank you for your payment! how was our service? bad/okay/good/great ")
+
+z = input("please make your payment. pays/no ")
+y=input
+if y == ("no"):
+    while True:
+        print(z)
+else:
+    x = input("thank you for your payment! how was our service? bad/okay/good/great ")
 if x == ("bad"):
     print("we are sorry for your inconvienience. would you like to tip 0%?")
 if x == ("okay"):
