@@ -64,9 +64,7 @@ if int(x) % 5 == 0:
 else:
     breakpoint(100) """
 
-
-
-z = input("please make your payment. pays/no ")
+""" z = input("please make your payment. pays/no ")
 y=input
 if y == ("no"):
     while True:
@@ -80,4 +78,14 @@ if x == ("okay"):
 if x == ("good"):
     print("would you like to tip 20%")
 if x == ("great"):
-    print("would you like to tip 25%")
+    print("would you like to tip 25%") """
+
+
+odd_or_even = input("i will detremine all faactor of 5 ")
+print(input)
+x=input
+if str(x) % 5 == 0:
+    while True:
+        print("factor")
+else:
+    breakpoint(100)
